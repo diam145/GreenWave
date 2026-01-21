@@ -33,9 +33,13 @@ The application simulates a high-stakes emergency scenario in Ottawa, Canada. It
 ## 🏗 System Architecture (SAM)
 
 1.  **The Orchestrator**: An AI agent that receives the emergency call, generates the route, and calculates the "Signal Intercept Sequence."
-2.  **The Ambulance**: A simulated agent publishing its location and speed to the `sam/ambulance/location` topic.
+2.  **The Ambulance Agent**: A simulated agent publishing its location and speed to the `sam/ambulance/location` topic.
 3.  **The TrafficBrain**: A monitoring agent that listens to the ambulance path and publishes preemption commands to `sam/signals/command/{id}`.
 4.  **The Dashboard**: A unified view for human operators to monitor the health of the agent mesh and mission progress.
+
+## Example of Simulation
+
+<img width="1284" height="688" alt="image" src="https://github.com/user-attachments/assets/edde9740-486d-4dc3-8ff0-d78e81f3ef78" />
 
 ---
 
