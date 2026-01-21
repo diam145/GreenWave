@@ -1,0 +1,7 @@
+{
+  "name": "SAM Ambulance Mission Control",
+  "description": "A real-time emergency ambulance routing and traffic-signal preemption system built with Solace Agent Mesh (SAM) architecture for mission-critical coordination.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
